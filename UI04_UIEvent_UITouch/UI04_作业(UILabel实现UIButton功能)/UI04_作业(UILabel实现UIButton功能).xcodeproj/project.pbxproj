@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		498D78721C22AAE100250AFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D78711C22AAE100250AFB /* main.m */; };
+		498D78751C22AAE100250AFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D78741C22AAE100250AFB /* AppDelegate.m */; };
+		498D78781C22AAE100250AFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D78771C22AAE100250AFB /* ViewController.m */; };
+		498D787B1C22AAE100250AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498D78791C22AAE100250AFB /* Main.storyboard */; };
+		498D787D1C22AAE100250AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498D787C1C22AAE100250AFB /* Assets.xcassets */; };
+		498D78801C22AAE100250AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498D787E1C22AAE100250AFB /* LaunchScreen.storyboard */; };
+		498D788B1C22AAE100250AFB /* UI04____UILabel__UIButton___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D788A1C22AAE100250AFB /* UI04____UILabel__UIButton___Tests.m */; };
+		498D78961C22AAE100250AFB /* UI04____UILabel__UIButton___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D78951C22AAE100250AFB /* UI04____UILabel__UIButton___UITests.m */; };
+		498D78A61C22AB1600250AFB /* LabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D78A51C22AB1600250AFB /* LabelView.m */; };
+		498D78AA1C22B3E800250AFB /* MoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 498D78A91C22B3E800250AFB /* MoveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		498D78871C22AAE100250AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498D78651C22AAE100250AFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498D786C1C22AAE100250AFB;
+			remoteInfo = "UI04_作业(UILabel实现UIButton功能)";
+		};
+		498D78921C22AAE100250AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498D78651C22AAE100250AFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498D786C1C22AAE100250AFB;
+			remoteInfo = "UI04_作业(UILabel实现UIButton功能)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		498D786D1C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI04_作业(UILabel实现UIButton功能).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		498D78711C22AAE100250AFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		498D78731C22AAE100250AFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		498D78741C22AAE100250AFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		498D78761C22AAE100250AFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		498D78771C22AAE100250AFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		498D787A1C22AAE100250AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		498D787C1C22AAE100250AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		498D787F1C22AAE100250AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		498D78811C22AAE100250AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498D78861C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI04_作业(UILabel实现UIButton功能)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		498D788A1C22AAE100250AFB /* UI04____UILabel__UIButton___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI04____UILabel__UIButton___Tests.m"; sourceTree = "<group>"; };
+		498D788C1C22AAE100250AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498D78911C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI04_作业(UILabel实现UIButton功能)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		498D78951C22AAE100250AFB /* UI04____UILabel__UIButton___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI04____UILabel__UIButton___UITests.m"; sourceTree = "<group>"; };
+		498D78971C22AAE100250AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498D78A41C22AB1600250AFB /* LabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelView.h; sourceTree = "<group>"; };
+		498D78A51C22AB1600250AFB /* LabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelView.m; sourceTree = "<group>"; };
+		498D78A81C22B3E800250AFB /* MoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveView.h; sourceTree = "<group>"; };
+		498D78A91C22B3E800250AFB /* MoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		498D786A1C22AAE100250AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D78831C22AAE100250AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D788E1C22AAE100250AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		498D78641C22AAE100250AFB = {
+			isa = PBXGroup;
+			children = (
+				498D786F1C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能) */,
+				498D78891C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)Tests */,
+				498D78941C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)UITests */,
+				498D786E1C22AAE100250AFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		498D786E1C22AAE100250AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				498D786D1C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能).app */,
+				498D78861C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)Tests.xctest */,
+				498D78911C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		498D786F1C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能) */ = {
+			isa = PBXGroup;
+			children = (
+				498D78731C22AAE100250AFB /* AppDelegate.h */,
+				498D78741C22AAE100250AFB /* AppDelegate.m */,
+				498D78A31C22AAE900250AFB /* Controller */,
+				498D78791C22AAE100250AFB /* Main.storyboard */,
+				498D78A71C22AB3400250AFB /* View */,
+				498D787C1C22AAE100250AFB /* Assets.xcassets */,
+				498D787E1C22AAE100250AFB /* LaunchScreen.storyboard */,
+				498D78811C22AAE100250AFB /* Info.plist */,
+				498D78701C22AAE100250AFB /* Supporting Files */,
+			);
+			path = "UI04_作业(UILabel实现UIButton功能)";
+			sourceTree = "<group>";
+		};
+		498D78701C22AAE100250AFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				498D78711C22AAE100250AFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		498D78891C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				498D788A1C22AAE100250AFB /* UI04____UILabel__UIButton___Tests.m */,
+				498D788C1C22AAE100250AFB /* Info.plist */,
+			);
+			path = "UI04_作业(UILabel实现UIButton功能)Tests";
+			sourceTree = "<group>";
+		};
+		498D78941C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				498D78951C22AAE100250AFB /* UI04____UILabel__UIButton___UITests.m */,
+				498D78971C22AAE100250AFB /* Info.plist */,
+			);
+			path = "UI04_作业(UILabel实现UIButton功能)UITests";
+			sourceTree = "<group>";
+		};
+		498D78A31C22AAE900250AFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				498D78761C22AAE100250AFB /* ViewController.h */,
+				498D78771C22AAE100250AFB /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		498D78A71C22AB3400250AFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				498D78A41C22AB1600250AFB /* LabelView.h */,
+				498D78A51C22AB1600250AFB /* LabelView.m */,
+				498D78A81C22B3E800250AFB /* MoveView.h */,
+				498D78A91C22B3E800250AFB /* MoveView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		498D786C1C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498D789A1C22AAE100250AFB /* Build configuration list for PBXNativeTarget "UI04_作业(UILabel实现UIButton功能)" */;
+			buildPhases = (
+				498D78691C22AAE100250AFB /* Sources */,
+				498D786A1C22AAE100250AFB /* Frameworks */,
+				498D786B1C22AAE100250AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI04_作业(UILabel实现UIButton功能)";
+			productName = "UI04_作业(UILabel实现UIButton功能)";
+			productReference = 498D786D1C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能).app */;
+			productType = "com.apple.product-type.application";
+		};
+		498D78851C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498D789D1C22AAE100250AFB /* Build configuration list for PBXNativeTarget "UI04_作业(UILabel实现UIButton功能)Tests" */;
+			buildPhases = (
+				498D78821C22AAE100250AFB /* Sources */,
+				498D78831C22AAE100250AFB /* Frameworks */,
+				498D78841C22AAE100250AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498D78881C22AAE100250AFB /* PBXTargetDependency */,
+			);
+			name = "UI04_作业(UILabel实现UIButton功能)Tests";
+			productName = "UI04_作业(UILabel实现UIButton功能)Tests";
+			productReference = 498D78861C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		498D78901C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498D78A01C22AAE100250AFB /* Build configuration list for PBXNativeTarget "UI04_作业(UILabel实现UIButton功能)UITests" */;
+			buildPhases = (
+				498D788D1C22AAE100250AFB /* Sources */,
+				498D788E1C22AAE100250AFB /* Frameworks */,
+				498D788F1C22AAE100250AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498D78931C22AAE100250AFB /* PBXTargetDependency */,
+			);
+			name = "UI04_作业(UILabel实现UIButton功能)UITests";
+			productName = "UI04_作业(UILabel实现UIButton功能)UITests";
+			productReference = 498D78911C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		498D78651C22AAE100250AFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = dllo;
+				TargetAttributes = {
+					498D786C1C22AAE100250AFB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					498D78851C22AAE100250AFB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 498D786C1C22AAE100250AFB;
+					};
+					498D78901C22AAE100250AFB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 498D786C1C22AAE100250AFB;
+					};
+				};
+			};
+			buildConfigurationList = 498D78681C22AAE100250AFB /* Build configuration list for PBXProject "UI04_作业(UILabel实现UIButton功能)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 498D78641C22AAE100250AFB;
+			productRefGroup = 498D786E1C22AAE100250AFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				498D786C1C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能) */,
+				498D78851C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)Tests */,
+				498D78901C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		498D786B1C22AAE100250AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498D78801C22AAE100250AFB /* LaunchScreen.storyboard in Resources */,
+				498D787D1C22AAE100250AFB /* Assets.xcassets in Resources */,
+				498D787B1C22AAE100250AFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D78841C22AAE100250AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D788F1C22AAE100250AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		498D78691C22AAE100250AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498D78AA1C22B3E800250AFB /* MoveView.m in Sources */,
+				498D78781C22AAE100250AFB /* ViewController.m in Sources */,
+				498D78A61C22AB1600250AFB /* LabelView.m in Sources */,
+				498D78751C22AAE100250AFB /* AppDelegate.m in Sources */,
+				498D78721C22AAE100250AFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D78821C22AAE100250AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498D788B1C22AAE100250AFB /* UI04____UILabel__UIButton___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498D788D1C22AAE100250AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498D78961C22AAE100250AFB /* UI04____UILabel__UIButton___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		498D78881C22AAE100250AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498D786C1C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能) */;
+			targetProxy = 498D78871C22AAE100250AFB /* PBXContainerItemProxy */;
+		};
+		498D78931C22AAE100250AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498D786C1C22AAE100250AFB /* UI04_作业(UILabel实现UIButton功能) */;
+			targetProxy = 498D78921C22AAE100250AFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		498D78791C22AAE100250AFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498D787A1C22AAE100250AFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		498D787E1C22AAE100250AFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498D787F1C22AAE100250AFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		498D78981C22AAE100250AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		498D78991C22AAE100250AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		498D789B1C22AAE100250AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "UI04_作业(UILabel实现UIButton功能)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI04----UILabel--UIButton---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		498D789C1C22AAE100250AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "UI04_作业(UILabel实现UIButton功能)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI04----UILabel--UIButton---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		498D789E1C22AAE100250AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI04_作业(UILabel实现UIButton功能)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI04----UILabel--UIButton---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI04_作业(UILabel实现UIButton功能).app/UI04_作业(UILabel实现UIButton功能)";
+			};
+			name = Debug;
+		};
+		498D789F1C22AAE100250AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UI04_作业(UILabel实现UIButton功能)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI04----UILabel--UIButton---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI04_作业(UILabel实现UIButton功能).app/UI04_作业(UILabel实现UIButton功能)";
+			};
+			name = Release;
+		};
+		498D78A11C22AAE100250AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI04_作业(UILabel实现UIButton功能)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI04----UILabel--UIButton---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI04_作业(UILabel实现UIButton功能)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		498D78A21C22AAE100250AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UI04_作业(UILabel实现UIButton功能)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.UI04----UILabel--UIButton---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UI04_作业(UILabel实现UIButton功能)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		498D78681C22AAE100250AFB /* Build configuration list for PBXProject "UI04_作业(UILabel实现UIButton功能)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498D78981C22AAE100250AFB /* Debug */,
+				498D78991C22AAE100250AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498D789A1C22AAE100250AFB /* Build configuration list for PBXNativeTarget "UI04_作业(UILabel实现UIButton功能)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498D789B1C22AAE100250AFB /* Debug */,
+				498D789C1C22AAE100250AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		498D789D1C22AAE100250AFB /* Build configuration list for PBXNativeTarget "UI04_作业(UILabel实现UIButton功能)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498D789E1C22AAE100250AFB /* Debug */,
+				498D789F1C22AAE100250AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		498D78A01C22AAE100250AFB /* Build configuration list for PBXNativeTarget "UI04_作业(UILabel实现UIButton功能)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498D78A11C22AAE100250AFB /* Debug */,
+				498D78A21C22AAE100250AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 498D78651C22AAE100250AFB /* Project object */;
+}
