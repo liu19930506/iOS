@@ -1,0 +1,32 @@
+<!-- 根节点. -->
+<students>
+    
+    <!-- 子节点 -->
+    <student>
+        <name>zhangsan</name>
+        <age>18</age>
+        <sex>male</sex>
+        <number>1</number>
+    </student>
+    
+    
+    <!-- 子节点 -->
+    <student>
+        <name>zhaosi</name>
+        <age>23</age>
+        <sex>male</sex>
+        <number>2</number>
+    </student>
+
+    <!-- 子节点 -->
+    <student>
+        <name>wangqiang</name>
+        <age>38</age>
+        <sex>female</sex>
+        <number>3</number>
+    </student>
+    
+    
+    
+    
+</students>

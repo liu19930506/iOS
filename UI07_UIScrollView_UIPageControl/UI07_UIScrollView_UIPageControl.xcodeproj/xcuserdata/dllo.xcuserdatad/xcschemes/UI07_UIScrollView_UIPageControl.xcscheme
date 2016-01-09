@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "490157BD1C27E4F2005F7A3B"
+               BlueprintIdentifier = "49B5E6F41C27E4E800552A48"
                BuildableName = "UI07_UIScrollView_UIPageControl.app"
                BlueprintName = "UI07_UIScrollView_UIPageControl"
                ReferencedContainer = "container:UI07_UIScrollView_UIPageControl.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "490157D61C27E4F2005F7A3B"
+               BlueprintIdentifier = "49B5E70D1C27E4E800552A48"
                BuildableName = "UI07_UIScrollView_UIPageControlTests.xctest"
                BlueprintName = "UI07_UIScrollView_UIPageControlTests"
                ReferencedContainer = "container:UI07_UIScrollView_UIPageControl.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "490157E11C27E4F2005F7A3B"
+               BlueprintIdentifier = "49B5E7181C27E4E800552A48"
                BuildableName = "UI07_UIScrollView_UIPageControlUITests.xctest"
                BlueprintName = "UI07_UIScrollView_UIPageControlUITests"
                ReferencedContainer = "container:UI07_UIScrollView_UIPageControl.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "490157BD1C27E4F2005F7A3B"
+            BlueprintIdentifier = "49B5E6F41C27E4E800552A48"
             BuildableName = "UI07_UIScrollView_UIPageControl.app"
             BlueprintName = "UI07_UIScrollView_UIPageControl"
             ReferencedContainer = "container:UI07_UIScrollView_UIPageControl.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "490157BD1C27E4F2005F7A3B"
+            BlueprintIdentifier = "49B5E6F41C27E4E800552A48"
             BuildableName = "UI07_UIScrollView_UIPageControl.app"
             BlueprintName = "UI07_UIScrollView_UIPageControl"
             ReferencedContainer = "container:UI07_UIScrollView_UIPageControl.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "490157BD1C27E4F2005F7A3B"
+            BlueprintIdentifier = "49B5E6F41C27E4E800552A48"
             BuildableName = "UI07_UIScrollView_UIPageControl.app"
             BlueprintName = "UI07_UIScrollView_UIPageControl"
             ReferencedContainer = "container:UI07_UIScrollView_UIPageControl.xcodeproj">

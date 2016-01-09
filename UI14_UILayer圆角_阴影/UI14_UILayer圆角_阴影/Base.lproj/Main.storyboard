@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSC-wq-dff">
+                                <rect key="frame" x="116" y="120" width="143" height="143"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YSC-wq-dff" secondAttribute="height" multiplier="1:1" id="tsw-gQ-NiN"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="516fbe68241e6.jpg"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20140907223321_zKuEj.thumb.700_0.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Uc3-zS-AQn">
+                                <rect key="frame" x="66" y="403" width="243" height="182"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Uc3-zS-AQn" secondAttribute="height" multiplier="4:3" id="YPc-YZ-xJw"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrn-LR-v5h">
+                                <rect key="frame" x="116" y="313" width="143" height="40"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="jgT-lE-mIQ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Uc3-zS-AQn" secondAttribute="trailing" constant="50" id="9FN-Mw-rtq"/>
+                            <constraint firstItem="Uc3-zS-AQn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="DVI-7O-k3x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YSC-wq-dff" secondAttribute="trailing" constant="100" id="EaM-sP-Dze"/>
+                            <constraint firstItem="YSC-wq-dff" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="ElW-tb-Pdj"/>
+                            <constraint firstItem="yrn-LR-v5h" firstAttribute="top" secondItem="YSC-wq-dff" secondAttribute="bottom" constant="50" id="Xfa-LF-Xgq"/>
+                            <constraint firstItem="yrn-LR-v5h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="bQc-NZ-5Ng"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yrn-LR-v5h" secondAttribute="trailing" constant="100" id="i1b-Ys-Luz"/>
+                            <constraint firstItem="YSC-wq-dff" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="iZH-Rn-VPG"/>
+                            <constraint firstItem="Uc3-zS-AQn" firstAttribute="top" secondItem="yrn-LR-v5h" secondAttribute="bottom" constant="50" id="oYy-Fa-Jak"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="button" destination="YSC-wq-dff" id="Xp7-uR-nEZ"/>
+                        <outlet property="imageView" destination="Uc3-zS-AQn" id="6KF-Mh-ObJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="474.5" y="431.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="20140907223321_zKuEj.thumb.700_0.jpeg" width="700" height="1244"/>
+        <image name="516fbe68241e6.jpg" width="580" height="870"/>
+    </resources>
+</document>

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Picture.h"
+
 @interface ViewController ()
 
 @end
@@ -17,24 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    self.view.backgroundColor = [UIColor whiteColor];
-    
+    self.view.backgroundColor = [UIColor blackColor];
     
     [self createPicView];
-
+    
+    
     
     
 }
 
 #pragma mark - 知识点1 UIScrollView_UIPageControl
-
-/** 详见 Picture类. */
-
+/** 详见Picture 类. */
 - (void)createPicView {
     
-    Picture *pic = [[Picture alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) images:@[@"1.JPG", @"2.JPG", @"3.JPG", @"4.JPG", @"5.JPG", @"6.JPG"]];
-    
+    Picture *pic = [[Picture alloc]initWithFrame:self.view.frame images:@[@"1.jpg", @"2.jpg", @"3.jpg"]];
     [self.view addSubview:pic];
     pic.center = self.view.center;
     [pic release];
@@ -44,6 +41,7 @@
 
 
 
+#pragma mark -
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

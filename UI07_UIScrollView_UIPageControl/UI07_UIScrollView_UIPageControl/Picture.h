@@ -12,4 +12,5 @@
 
 - (instancetype)initWithFrame:(CGRect)frame images:(NSArray<NSString *> *)images;
 
+
 @end

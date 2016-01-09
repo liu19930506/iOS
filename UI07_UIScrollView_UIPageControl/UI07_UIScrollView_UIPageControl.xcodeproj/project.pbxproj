@@ -7,83 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		490157C31C27E4F2005F7A3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 490157C21C27E4F2005F7A3B /* main.m */; };
-		490157C61C27E4F2005F7A3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 490157C51C27E4F2005F7A3B /* AppDelegate.m */; };
-		490157C91C27E4F2005F7A3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490157C81C27E4F2005F7A3B /* ViewController.m */; };
-		490157CC1C27E4F2005F7A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490157CA1C27E4F2005F7A3B /* Main.storyboard */; };
-		490157CE1C27E4F2005F7A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 490157CD1C27E4F2005F7A3B /* Assets.xcassets */; };
-		490157D11C27E4F2005F7A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490157CF1C27E4F2005F7A3B /* LaunchScreen.storyboard */; };
-		490157DC1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490157DB1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlTests.m */; };
-		490157E71C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 490157E61C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlUITests.m */; };
-		490157F61C27E5C6005F7A3B /* 5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 490157F41C27E5C6005F7A3B /* 5.JPG */; };
-		490157F71C27E5C6005F7A3B /* 6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 490157F51C27E5C6005F7A3B /* 6.JPG */; };
-		490157FC1C27E5D7005F7A3B /* 2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 490157F81C27E5D7005F7A3B /* 2.JPG */; };
-		490157FD1C27E5D7005F7A3B /* 3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 490157F91C27E5D7005F7A3B /* 3.JPG */; };
-		490157FE1C27E5D7005F7A3B /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 490157FA1C27E5D7005F7A3B /* 4.JPG */; };
-		490157FF1C27E5D7005F7A3B /* 1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 490157FB1C27E5D7005F7A3B /* 1.JPG */; };
-		490158041C27E6FC005F7A3B /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = 490158031C27E6FC005F7A3B /* Picture.m */; };
+		49B5E6FA1C27E4E800552A48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B5E6F91C27E4E800552A48 /* main.m */; };
+		49B5E6FD1C27E4E800552A48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B5E6FC1C27E4E800552A48 /* AppDelegate.m */; };
+		49B5E7001C27E4E800552A48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B5E6FF1C27E4E800552A48 /* ViewController.m */; };
+		49B5E7031C27E4E800552A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B5E7011C27E4E800552A48 /* Main.storyboard */; };
+		49B5E7051C27E4E800552A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B5E7041C27E4E800552A48 /* Assets.xcassets */; };
+		49B5E7081C27E4E800552A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B5E7061C27E4E800552A48 /* LaunchScreen.storyboard */; };
+		49B5E7131C27E4E800552A48 /* UI07_UIScrollView_UIPageControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B5E7121C27E4E800552A48 /* UI07_UIScrollView_UIPageControlTests.m */; };
+		49B5E71E1C27E4E800552A48 /* UI07_UIScrollView_UIPageControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B5E71D1C27E4E800552A48 /* UI07_UIScrollView_UIPageControlUITests.m */; };
+		49B5E72C1C27E5B400552A48 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B5E72B1C27E5B400552A48 /* 1.jpg */; };
+		49B5E72E1C27E5C400552A48 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B5E72D1C27E5C400552A48 /* 2.jpg */; };
+		49B5E7301C27E5DA00552A48 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49B5E72F1C27E5DA00552A48 /* 3.jpg */; };
+		49B5E7331C27E6FC00552A48 /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B5E7321C27E6FB00552A48 /* Picture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		490157D81C27E4F2005F7A3B /* PBXContainerItemProxy */ = {
+		49B5E70F1C27E4E800552A48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 490157B61C27E4F2005F7A3B /* Project object */;
+			containerPortal = 49B5E6ED1C27E4E800552A48 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 490157BD1C27E4F2005F7A3B;
+			remoteGlobalIDString = 49B5E6F41C27E4E800552A48;
 			remoteInfo = UI07_UIScrollView_UIPageControl;
 		};
-		490157E31C27E4F2005F7A3B /* PBXContainerItemProxy */ = {
+		49B5E71A1C27E4E800552A48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 490157B61C27E4F2005F7A3B /* Project object */;
+			containerPortal = 49B5E6ED1C27E4E800552A48 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 490157BD1C27E4F2005F7A3B;
+			remoteGlobalIDString = 49B5E6F41C27E4E800552A48;
 			remoteInfo = UI07_UIScrollView_UIPageControl;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		490157BE1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI07_UIScrollView_UIPageControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		490157C21C27E4F2005F7A3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		490157C41C27E4F2005F7A3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		490157C51C27E4F2005F7A3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		490157C71C27E4F2005F7A3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		490157C81C27E4F2005F7A3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		490157CB1C27E4F2005F7A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		490157CD1C27E4F2005F7A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		490157D01C27E4F2005F7A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		490157D21C27E4F2005F7A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		490157D71C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI07_UIScrollView_UIPageControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		490157DB1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI07_UIScrollView_UIPageControlTests.m; sourceTree = "<group>"; };
-		490157DD1C27E4F2005F7A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		490157E21C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI07_UIScrollView_UIPageControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		490157E61C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI07_UIScrollView_UIPageControlUITests.m; sourceTree = "<group>"; };
-		490157E81C27E4F2005F7A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		490157F41C27E5C6005F7A3B /* 5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.JPG; sourceTree = "<group>"; };
-		490157F51C27E5C6005F7A3B /* 6.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.JPG; sourceTree = "<group>"; };
-		490157F81C27E5D7005F7A3B /* 2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.JPG; sourceTree = "<group>"; };
-		490157F91C27E5D7005F7A3B /* 3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.JPG; sourceTree = "<group>"; };
-		490157FA1C27E5D7005F7A3B /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
-		490157FB1C27E5D7005F7A3B /* 1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.JPG; sourceTree = "<group>"; };
-		490158021C27E6FC005F7A3B /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
-		490158031C27E6FC005F7A3B /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
+		49B5E6F51C27E4E800552A48 /* UI07_UIScrollView_UIPageControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI07_UIScrollView_UIPageControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B5E6F91C27E4E800552A48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49B5E6FB1C27E4E800552A48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49B5E6FC1C27E4E800552A48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49B5E6FE1C27E4E800552A48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49B5E6FF1C27E4E800552A48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49B5E7021C27E4E800552A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49B5E7041C27E4E800552A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49B5E7071C27E4E800552A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49B5E7091C27E4E800552A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B5E70E1C27E4E800552A48 /* UI07_UIScrollView_UIPageControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI07_UIScrollView_UIPageControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B5E7121C27E4E800552A48 /* UI07_UIScrollView_UIPageControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI07_UIScrollView_UIPageControlTests.m; sourceTree = "<group>"; };
+		49B5E7141C27E4E800552A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B5E7191C27E4E800552A48 /* UI07_UIScrollView_UIPageControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI07_UIScrollView_UIPageControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B5E71D1C27E4E800552A48 /* UI07_UIScrollView_UIPageControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI07_UIScrollView_UIPageControlUITests.m; sourceTree = "<group>"; };
+		49B5E71F1C27E4E800552A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B5E72B1C27E5B400552A48 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		49B5E72D1C27E5C400552A48 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		49B5E72F1C27E5DA00552A48 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		49B5E7311C27E6FB00552A48 /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		49B5E7321C27E6FB00552A48 /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		490157BB1C27E4F2005F7A3B /* Frameworks */ = {
+		49B5E6F21C27E4E800552A48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		490157D41C27E4F2005F7A3B /* Frameworks */ = {
+		49B5E70B1C27E4E800552A48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		490157DF1C27E4F2005F7A3B /* Frameworks */ = {
+		49B5E7161C27E4E800552A48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -93,102 +87,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		490157B51C27E4F2005F7A3B = {
+		49B5E6EC1C27E4E800552A48 = {
 			isa = PBXGroup;
 			children = (
-				490157C01C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControl */,
-				490157DA1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlTests */,
-				490157E51C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlUITests */,
-				490157BF1C27E4F2005F7A3B /* Products */,
+				49B5E6F71C27E4E800552A48 /* UI07_UIScrollView_UIPageControl */,
+				49B5E7111C27E4E800552A48 /* UI07_UIScrollView_UIPageControlTests */,
+				49B5E71C1C27E4E800552A48 /* UI07_UIScrollView_UIPageControlUITests */,
+				49B5E6F61C27E4E800552A48 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		490157BF1C27E4F2005F7A3B /* Products */ = {
+		49B5E6F61C27E4E800552A48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				490157BE1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControl.app */,
-				490157D71C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlTests.xctest */,
-				490157E21C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlUITests.xctest */,
+				49B5E6F51C27E4E800552A48 /* UI07_UIScrollView_UIPageControl.app */,
+				49B5E70E1C27E4E800552A48 /* UI07_UIScrollView_UIPageControlTests.xctest */,
+				49B5E7191C27E4E800552A48 /* UI07_UIScrollView_UIPageControlUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		490157C01C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControl */ = {
+		49B5E6F71C27E4E800552A48 /* UI07_UIScrollView_UIPageControl */ = {
 			isa = PBXGroup;
 			children = (
-				490157C41C27E4F2005F7A3B /* AppDelegate.h */,
-				490157C51C27E4F2005F7A3B /* AppDelegate.m */,
-				490158011C27E6C0005F7A3B /* Controller */,
-				490158001C27E5EC005F7A3B /* Image */,
-				490157CA1C27E4F2005F7A3B /* Main.storyboard */,
-				490157CD1C27E4F2005F7A3B /* Assets.xcassets */,
-				490157CF1C27E4F2005F7A3B /* LaunchScreen.storyboard */,
-				490157D21C27E4F2005F7A3B /* Info.plist */,
-				490157C11C27E4F2005F7A3B /* Supporting Files */,
+				49B5E6FB1C27E4E800552A48 /* AppDelegate.h */,
+				49B5E6FC1C27E4E800552A48 /* AppDelegate.m */,
+				49B5E6FE1C27E4E800552A48 /* ViewController.h */,
+				49B5E6FF1C27E4E800552A48 /* ViewController.m */,
+				49B5E7311C27E6FB00552A48 /* Picture.h */,
+				49B5E7321C27E6FB00552A48 /* Picture.m */,
+				49B5E72B1C27E5B400552A48 /* 1.jpg */,
+				49B5E72D1C27E5C400552A48 /* 2.jpg */,
+				49B5E72F1C27E5DA00552A48 /* 3.jpg */,
+				49B5E7011C27E4E800552A48 /* Main.storyboard */,
+				49B5E7041C27E4E800552A48 /* Assets.xcassets */,
+				49B5E7061C27E4E800552A48 /* LaunchScreen.storyboard */,
+				49B5E7091C27E4E800552A48 /* Info.plist */,
+				49B5E6F81C27E4E800552A48 /* Supporting Files */,
 			);
 			path = UI07_UIScrollView_UIPageControl;
 			sourceTree = "<group>";
 		};
-		490157C11C27E4F2005F7A3B /* Supporting Files */ = {
+		49B5E6F81C27E4E800552A48 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				490157C21C27E4F2005F7A3B /* main.m */,
+				49B5E6F91C27E4E800552A48 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		490157DA1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlTests */ = {
+		49B5E7111C27E4E800552A48 /* UI07_UIScrollView_UIPageControlTests */ = {
 			isa = PBXGroup;
 			children = (
-				490157DB1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlTests.m */,
-				490157DD1C27E4F2005F7A3B /* Info.plist */,
+				49B5E7121C27E4E800552A48 /* UI07_UIScrollView_UIPageControlTests.m */,
+				49B5E7141C27E4E800552A48 /* Info.plist */,
 			);
 			path = UI07_UIScrollView_UIPageControlTests;
 			sourceTree = "<group>";
 		};
-		490157E51C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlUITests */ = {
+		49B5E71C1C27E4E800552A48 /* UI07_UIScrollView_UIPageControlUITests */ = {
 			isa = PBXGroup;
 			children = (
-				490157E61C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlUITests.m */,
-				490157E81C27E4F2005F7A3B /* Info.plist */,
+				49B5E71D1C27E4E800552A48 /* UI07_UIScrollView_UIPageControlUITests.m */,
+				49B5E71F1C27E4E800552A48 /* Info.plist */,
 			);
 			path = UI07_UIScrollView_UIPageControlUITests;
-			sourceTree = "<group>";
-		};
-		490158001C27E5EC005F7A3B /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				490157FB1C27E5D7005F7A3B /* 1.JPG */,
-				490157F81C27E5D7005F7A3B /* 2.JPG */,
-				490157F91C27E5D7005F7A3B /* 3.JPG */,
-				490157FA1C27E5D7005F7A3B /* 4.JPG */,
-				490157F41C27E5C6005F7A3B /* 5.JPG */,
-				490157F51C27E5C6005F7A3B /* 6.JPG */,
-			);
-			name = Image;
-			sourceTree = "<group>";
-		};
-		490158011C27E6C0005F7A3B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				490157C71C27E4F2005F7A3B /* ViewController.h */,
-				490157C81C27E4F2005F7A3B /* ViewController.m */,
-				490158021C27E6FC005F7A3B /* Picture.h */,
-				490158031C27E6FC005F7A3B /* Picture.m */,
-			);
-			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		490157BD1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControl */ = {
+		49B5E6F41C27E4E800552A48 /* UI07_UIScrollView_UIPageControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 490157EB1C27E4F2005F7A3B /* Build configuration list for PBXNativeTarget "UI07_UIScrollView_UIPageControl" */;
+			buildConfigurationList = 49B5E7221C27E4E800552A48 /* Build configuration list for PBXNativeTarget "UI07_UIScrollView_UIPageControl" */;
 			buildPhases = (
-				490157BA1C27E4F2005F7A3B /* Sources */,
-				490157BB1C27E4F2005F7A3B /* Frameworks */,
-				490157BC1C27E4F2005F7A3B /* Resources */,
+				49B5E6F11C27E4E800552A48 /* Sources */,
+				49B5E6F21C27E4E800552A48 /* Frameworks */,
+				49B5E6F31C27E4E800552A48 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -196,68 +171,68 @@
 			);
 			name = UI07_UIScrollView_UIPageControl;
 			productName = UI07_UIScrollView_UIPageControl;
-			productReference = 490157BE1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControl.app */;
+			productReference = 49B5E6F51C27E4E800552A48 /* UI07_UIScrollView_UIPageControl.app */;
 			productType = "com.apple.product-type.application";
 		};
-		490157D61C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlTests */ = {
+		49B5E70D1C27E4E800552A48 /* UI07_UIScrollView_UIPageControlTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 490157EE1C27E4F2005F7A3B /* Build configuration list for PBXNativeTarget "UI07_UIScrollView_UIPageControlTests" */;
+			buildConfigurationList = 49B5E7251C27E4E800552A48 /* Build configuration list for PBXNativeTarget "UI07_UIScrollView_UIPageControlTests" */;
 			buildPhases = (
-				490157D31C27E4F2005F7A3B /* Sources */,
-				490157D41C27E4F2005F7A3B /* Frameworks */,
-				490157D51C27E4F2005F7A3B /* Resources */,
+				49B5E70A1C27E4E800552A48 /* Sources */,
+				49B5E70B1C27E4E800552A48 /* Frameworks */,
+				49B5E70C1C27E4E800552A48 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				490157D91C27E4F2005F7A3B /* PBXTargetDependency */,
+				49B5E7101C27E4E800552A48 /* PBXTargetDependency */,
 			);
 			name = UI07_UIScrollView_UIPageControlTests;
 			productName = UI07_UIScrollView_UIPageControlTests;
-			productReference = 490157D71C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlTests.xctest */;
+			productReference = 49B5E70E1C27E4E800552A48 /* UI07_UIScrollView_UIPageControlTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		490157E11C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlUITests */ = {
+		49B5E7181C27E4E800552A48 /* UI07_UIScrollView_UIPageControlUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 490157F11C27E4F2005F7A3B /* Build configuration list for PBXNativeTarget "UI07_UIScrollView_UIPageControlUITests" */;
+			buildConfigurationList = 49B5E7281C27E4E800552A48 /* Build configuration list for PBXNativeTarget "UI07_UIScrollView_UIPageControlUITests" */;
 			buildPhases = (
-				490157DE1C27E4F2005F7A3B /* Sources */,
-				490157DF1C27E4F2005F7A3B /* Frameworks */,
-				490157E01C27E4F2005F7A3B /* Resources */,
+				49B5E7151C27E4E800552A48 /* Sources */,
+				49B5E7161C27E4E800552A48 /* Frameworks */,
+				49B5E7171C27E4E800552A48 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				490157E41C27E4F2005F7A3B /* PBXTargetDependency */,
+				49B5E71B1C27E4E800552A48 /* PBXTargetDependency */,
 			);
 			name = UI07_UIScrollView_UIPageControlUITests;
 			productName = UI07_UIScrollView_UIPageControlUITests;
-			productReference = 490157E21C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlUITests.xctest */;
+			productReference = 49B5E7191C27E4E800552A48 /* UI07_UIScrollView_UIPageControlUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		490157B61C27E4F2005F7A3B /* Project object */ = {
+		49B5E6ED1C27E4E800552A48 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = dllo;
 				TargetAttributes = {
-					490157BD1C27E4F2005F7A3B = {
+					49B5E6F41C27E4E800552A48 = {
 						CreatedOnToolsVersion = 7.1;
 					};
-					490157D61C27E4F2005F7A3B = {
+					49B5E70D1C27E4E800552A48 = {
 						CreatedOnToolsVersion = 7.1;
-						TestTargetID = 490157BD1C27E4F2005F7A3B;
+						TestTargetID = 49B5E6F41C27E4E800552A48;
 					};
-					490157E11C27E4F2005F7A3B = {
+					49B5E7181C27E4E800552A48 = {
 						CreatedOnToolsVersion = 7.1;
-						TestTargetID = 490157BD1C27E4F2005F7A3B;
+						TestTargetID = 49B5E6F41C27E4E800552A48;
 					};
 				};
 			};
-			buildConfigurationList = 490157B91C27E4F2005F7A3B /* Build configuration list for PBXProject "UI07_UIScrollView_UIPageControl" */;
+			buildConfigurationList = 49B5E6F01C27E4E800552A48 /* Build configuration list for PBXProject "UI07_UIScrollView_UIPageControl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -265,43 +240,40 @@
 				en,
 				Base,
 			);
-			mainGroup = 490157B51C27E4F2005F7A3B;
-			productRefGroup = 490157BF1C27E4F2005F7A3B /* Products */;
+			mainGroup = 49B5E6EC1C27E4E800552A48;
+			productRefGroup = 49B5E6F61C27E4E800552A48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				490157BD1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControl */,
-				490157D61C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlTests */,
-				490157E11C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlUITests */,
+				49B5E6F41C27E4E800552A48 /* UI07_UIScrollView_UIPageControl */,
+				49B5E70D1C27E4E800552A48 /* UI07_UIScrollView_UIPageControlTests */,
+				49B5E7181C27E4E800552A48 /* UI07_UIScrollView_UIPageControlUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		490157BC1C27E4F2005F7A3B /* Resources */ = {
+		49B5E6F31C27E4E800552A48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490157FF1C27E5D7005F7A3B /* 1.JPG in Resources */,
-				490157FE1C27E5D7005F7A3B /* 4.JPG in Resources */,
-				490157D11C27E4F2005F7A3B /* LaunchScreen.storyboard in Resources */,
-				490157CE1C27E4F2005F7A3B /* Assets.xcassets in Resources */,
-				490157F71C27E5C6005F7A3B /* 6.JPG in Resources */,
-				490157FD1C27E5D7005F7A3B /* 3.JPG in Resources */,
-				490157CC1C27E4F2005F7A3B /* Main.storyboard in Resources */,
-				490157FC1C27E5D7005F7A3B /* 2.JPG in Resources */,
-				490157F61C27E5C6005F7A3B /* 5.JPG in Resources */,
+				49B5E72C1C27E5B400552A48 /* 1.jpg in Resources */,
+				49B5E7301C27E5DA00552A48 /* 3.jpg in Resources */,
+				49B5E7081C27E4E800552A48 /* LaunchScreen.storyboard in Resources */,
+				49B5E7051C27E4E800552A48 /* Assets.xcassets in Resources */,
+				49B5E7031C27E4E800552A48 /* Main.storyboard in Resources */,
+				49B5E72E1C27E5C400552A48 /* 2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		490157D51C27E4F2005F7A3B /* Resources */ = {
+		49B5E70C1C27E4E800552A48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		490157E01C27E4F2005F7A3B /* Resources */ = {
+		49B5E7171C27E4E800552A48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,61 +283,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		490157BA1C27E4F2005F7A3B /* Sources */ = {
+		49B5E6F11C27E4E800552A48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490158041C27E6FC005F7A3B /* Picture.m in Sources */,
-				490157C91C27E4F2005F7A3B /* ViewController.m in Sources */,
-				490157C61C27E4F2005F7A3B /* AppDelegate.m in Sources */,
-				490157C31C27E4F2005F7A3B /* main.m in Sources */,
+				49B5E7331C27E6FC00552A48 /* Picture.m in Sources */,
+				49B5E7001C27E4E800552A48 /* ViewController.m in Sources */,
+				49B5E6FD1C27E4E800552A48 /* AppDelegate.m in Sources */,
+				49B5E6FA1C27E4E800552A48 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		490157D31C27E4F2005F7A3B /* Sources */ = {
+		49B5E70A1C27E4E800552A48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490157DC1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlTests.m in Sources */,
+				49B5E7131C27E4E800552A48 /* UI07_UIScrollView_UIPageControlTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		490157DE1C27E4F2005F7A3B /* Sources */ = {
+		49B5E7151C27E4E800552A48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490157E71C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControlUITests.m in Sources */,
+				49B5E71E1C27E4E800552A48 /* UI07_UIScrollView_UIPageControlUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		490157D91C27E4F2005F7A3B /* PBXTargetDependency */ = {
+		49B5E7101C27E4E800552A48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 490157BD1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControl */;
-			targetProxy = 490157D81C27E4F2005F7A3B /* PBXContainerItemProxy */;
+			target = 49B5E6F41C27E4E800552A48 /* UI07_UIScrollView_UIPageControl */;
+			targetProxy = 49B5E70F1C27E4E800552A48 /* PBXContainerItemProxy */;
 		};
-		490157E41C27E4F2005F7A3B /* PBXTargetDependency */ = {
+		49B5E71B1C27E4E800552A48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 490157BD1C27E4F2005F7A3B /* UI07_UIScrollView_UIPageControl */;
-			targetProxy = 490157E31C27E4F2005F7A3B /* PBXContainerItemProxy */;
+			target = 49B5E6F41C27E4E800552A48 /* UI07_UIScrollView_UIPageControl */;
+			targetProxy = 49B5E71A1C27E4E800552A48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		490157CA1C27E4F2005F7A3B /* Main.storyboard */ = {
+		49B5E7011C27E4E800552A48 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				490157CB1C27E4F2005F7A3B /* Base */,
+				49B5E7021C27E4E800552A48 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		490157CF1C27E4F2005F7A3B /* LaunchScreen.storyboard */ = {
+		49B5E7061C27E4E800552A48 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				490157D01C27E4F2005F7A3B /* Base */,
+				49B5E7071C27E4E800552A48 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -373,7 +345,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		490157E91C27E4F2005F7A3B /* Debug */ = {
+		49B5E7201C27E4E800552A48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,7 +388,7 @@
 			};
 			name = Debug;
 		};
-		490157EA1C27E4F2005F7A3B /* Release */ = {
+		49B5E7211C27E4E800552A48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -453,7 +425,7 @@
 			};
 			name = Release;
 		};
-		490157EC1C27E4F2005F7A3B /* Debug */ = {
+		49B5E7231C27E4E800552A48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -465,7 +437,7 @@
 			};
 			name = Debug;
 		};
-		490157ED1C27E4F2005F7A3B /* Release */ = {
+		49B5E7241C27E4E800552A48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -477,7 +449,7 @@
 			};
 			name = Release;
 		};
-		490157EF1C27E4F2005F7A3B /* Debug */ = {
+		49B5E7261C27E4E800552A48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,7 +461,7 @@
 			};
 			name = Debug;
 		};
-		490157F01C27E4F2005F7A3B /* Release */ = {
+		49B5E7271C27E4E800552A48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,7 +473,7 @@
 			};
 			name = Release;
 		};
-		490157F21C27E4F2005F7A3B /* Debug */ = {
+		49B5E7291C27E4E800552A48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = UI07_UIScrollView_UIPageControlUITests/Info.plist;
@@ -513,7 +485,7 @@
 			};
 			name = Debug;
 		};
-		490157F31C27E4F2005F7A3B /* Release */ = {
+		49B5E72A1C27E4E800552A48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = UI07_UIScrollView_UIPageControlUITests/Info.plist;
@@ -528,40 +500,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		490157B91C27E4F2005F7A3B /* Build configuration list for PBXProject "UI07_UIScrollView_UIPageControl" */ = {
+		49B5E6F01C27E4E800552A48 /* Build configuration list for PBXProject "UI07_UIScrollView_UIPageControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				490157E91C27E4F2005F7A3B /* Debug */,
-				490157EA1C27E4F2005F7A3B /* Release */,
+				49B5E7201C27E4E800552A48 /* Debug */,
+				49B5E7211C27E4E800552A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		490157EB1C27E4F2005F7A3B /* Build configuration list for PBXNativeTarget "UI07_UIScrollView_UIPageControl" */ = {
+		49B5E7221C27E4E800552A48 /* Build configuration list for PBXNativeTarget "UI07_UIScrollView_UIPageControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				490157EC1C27E4F2005F7A3B /* Debug */,
-				490157ED1C27E4F2005F7A3B /* Release */,
+				49B5E7231C27E4E800552A48 /* Debug */,
+				49B5E7241C27E4E800552A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		490157EE1C27E4F2005F7A3B /* Build configuration list for PBXNativeTarget "UI07_UIScrollView_UIPageControlTests" */ = {
+		49B5E7251C27E4E800552A48 /* Build configuration list for PBXNativeTarget "UI07_UIScrollView_UIPageControlTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				490157EF1C27E4F2005F7A3B /* Debug */,
-				490157F01C27E4F2005F7A3B /* Release */,
+				49B5E7261C27E4E800552A48 /* Debug */,
+				49B5E7271C27E4E800552A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		490157F11C27E4F2005F7A3B /* Build configuration list for PBXNativeTarget "UI07_UIScrollView_UIPageControlUITests" */ = {
+		49B5E7281C27E4E800552A48 /* Build configuration list for PBXNativeTarget "UI07_UIScrollView_UIPageControlUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				490157F21C27E4F2005F7A3B /* Debug */,
-				490157F31C27E4F2005F7A3B /* Release */,
+				49B5E7291C27E4E800552A48 /* Debug */,
+				49B5E72A1C27E4E800552A48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 490157B61C27E4F2005F7A3B /* Project object */;
+	rootObject = 49B5E6ED1C27E4E800552A48 /* Project object */;
 }
